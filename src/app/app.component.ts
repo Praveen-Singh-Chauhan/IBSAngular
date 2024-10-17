@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'IBS';
+getName(name:any,param2:any){
+alert("Hello "+name);
+alert("You are tagged to "+param2);
+}
+  
 }
